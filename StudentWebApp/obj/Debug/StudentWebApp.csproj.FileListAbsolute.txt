@@ -1,0 +1,72 @@
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\StudentWebApp.dll.config
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\StudentWebApp.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\StudentWebApp.pdb
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\Antlr3.Runtime.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\Newtonsoft.Json.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Net.Http.Formatting.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Helpers.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Http.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Http.WebHost.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Mvc.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Optimization.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Razor.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Deployment.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Razor.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\WebGrease.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Helpers.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Mvc.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Optimization.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Razor.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Deployment.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Razor.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\Antlr3.Runtime.pdb
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\Newtonsoft.Json.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Net.Http.Formatting.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Http.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\System.Web.Http.WebHost.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.csprojResolveAssemblyReference.cache
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.pdb
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\EntityFramework.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\EntityFramework.SqlServer.dll
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\EntityFramework.xml
+c:\users\u29267\documents\visual studio 2013\Projects\StudentWebApp\StudentWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\StudentWebApp.dll.config
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\StudentWebApp.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\StudentWebApp.pdb
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\Antlr3.Runtime.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\EntityFramework.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\Newtonsoft.Json.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Helpers.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Http.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Http.WebHost.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Mvc.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Optimization.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Razor.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\WebGrease.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\EntityFramework.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Helpers.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Mvc.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Optimization.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Razor.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\Newtonsoft.Json.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Http.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\bin\System.Web.Http.WebHost.xml
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.csprojResolveAssemblyReference.cache
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.dll
+C:\Users\u29267\Documents\GitHub\StudentWebApp\StudentWebApp\obj\Debug\StudentWebApp.pdb
