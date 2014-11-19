@@ -2,43 +2,43 @@
 
 app.service('studentService', function ($http) {
     //get all students
-    this.getStudents = function () {
-        return $http.get("/api/studentsAPI");
-    }
+    this.getstudents = function () {
+        return $http.get("/api/students");
+    };
 
     //get individual student
     this.get = function (StudentID) {
-        return $http.get("/api/studentsAPI/" + StudentID);
-    }
+        return $http.get("/api/students/" + StudentID);
+    };
 
     //add new student
     this.post = function (Student) {
         var request = $http({
             method: "post",
-            url: "/api/studentsAPI",
+            url: "/api/students",
             data: Student
         });
         return request;
-    }
+    };
 
     //update student
     this.put = function (Student) {
         var request = $http({
             method: "put",
-            url: "/api/studentsAPI/" + Student.StudentID,
+            url: "/api/students/" + Student.StudentID,
             data: Student
         });
         return request;
-    }
+    };
     
     //delete student
     this.delete = function (StudentID) {
         var request = $http({
             method: "delete",
-            url: "/api/studentsAPI/" + StudentID
+            url: "/api/students/" + StudentID
         });
         return request;
-    }
+    };
     
 });
 
@@ -46,11 +46,11 @@ app.controller('studentController', function ($scope, studentService) {
     $scope.editMode = false;
     
     //load student records
-    loadRecords(); 
+    loadrecords(); 
      
-    function loadRecords() {
-        var promiseGet = studentService.getStudents();
- 
+    function loadrecords() {
+        var promiseGet = studentService.getstudents();
+
         promiseGet.then(function (pl) { $scope.students = pl.data },
               function (errorPl) {
                   $scope.error = "An Error has occured retreiving student data!";
@@ -65,17 +65,17 @@ app.controller('studentController', function ($scope, studentService) {
             LastName: $scope.student.lastname,
             Major: $scope.student.major
         };
-        
+
         var promisePost = studentService.post(newStudent);
         promisePost.then(function (pl) {
             $scope.StudentID = pl.data.StudentID;
-            loadRecords();
+            loadrecords();
             $('#studentModel').modal('hide');
         }, function (err) {
             $scope.error = "An Error has occured inserting student!";
             console.log("Inserting Error: " + err);
-        });        
-    }
+        });
+    };
 
     //edit student button click
     $scope.edit = function () {
@@ -102,25 +102,25 @@ app.controller('studentController', function ($scope, studentService) {
         var promisePut = studentService.put(updateStudent);
         promisePut.then(function (pl) {
             $scope.studentID = pl.data.StudentID;
-            loadRecords();
+            loadrecords();
             $('#studentModel').modal('hide');
         }, function (err) {
             $scope.error = "An Error has occured updating student!";
             console.log("Updating Error: " + err);
         });
-    }
+    };
 
     //delete student button click
     $scope.delete = function () {
         studentService.delete($scope.student.StudentID).success(function (data) {
-            $('#confirmModal').modal('hide');            
+            $('#confirmModal').modal('hide');
             $scope.students.pop($scope.student);
         }).error(function (data) {
             $scope.error = "An Error has occured deleting student!";
             console.log("Deleting error: " + data.ExceptionMessage);
             $('#confirmModal').modal('hide');
         });
-    }
+    };
     
     //Model popup events
     $scope.showadd = function () {
@@ -142,5 +142,5 @@ app.controller('studentController', function ($scope, studentService) {
     $scope.cancel = function () {
         $scope.student = null;
         $('#studentModel').modal('hide');
-    }
+    };
 });

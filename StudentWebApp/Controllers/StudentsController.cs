@@ -12,17 +12,17 @@ using StudentWebApp.Models;
 
 namespace StudentWebApp.Controllers
 {
-    public class StudentsAPIController : ApiController
+    public class StudentsController : ApiController
     {
         private ApplicationEntities1 db = new ApplicationEntities1();
 
-        // GET: api/StudentsAPI
+        // GET: api/Students
         public IQueryable<Student> GetStudents()
         {
             return db.Students;
         }
 
-        // GET: api/StudentsAPI/5
+        // GET: api/Students/5
         [ResponseType(typeof(Student))]
         public IHttpActionResult GetStudent(int id)
         {
@@ -35,7 +35,7 @@ namespace StudentWebApp.Controllers
             return Ok(student);
         }
 
-        // PUT: api/StudentsAPI/5
+        // PUT: api/Students/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutStudent(int id, Student student)
         {
@@ -70,7 +70,7 @@ namespace StudentWebApp.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/StudentsAPI
+        // POST: api/Students
         [ResponseType(typeof(Student))]
         public IHttpActionResult PostStudent(Student student)
         {
@@ -85,7 +85,7 @@ namespace StudentWebApp.Controllers
             return CreatedAtRoute("DefaultApi", new { id = student.StudentID }, student);
         }
 
-        // DELETE: api/StudentsAPI/5
+        // DELETE: api/Students/5
         [ResponseType(typeof(Student))]
         public IHttpActionResult DeleteStudent(int id)
         {
