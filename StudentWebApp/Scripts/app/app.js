@@ -114,7 +114,8 @@ app.controller('studentController', function ($scope, studentService) {
     $scope.delete = function () {
         studentService.delete($scope.student.StudentID).success(function (data) {
             $('#confirmModal').modal('hide');
-            $scope.students.pop($scope.student);
+            //$scope.students.pop($scope.student);
+            loadrecords();
         }).error(function (data) {
             $scope.error = "An Error has occured deleting student!";
             console.log("Deleting error: " + data.ExceptionMessage);
